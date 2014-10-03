@@ -3,7 +3,7 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6L38</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/lfulbright17/GitHub/LightsOut/LightsOut.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/lfulbright17/GitHub/LightsOut/LightsOut/LightsOut.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Lights Out" by Lee-Won Fulbright</string>
         <key>Level</key><integer>0</integer>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4e3c40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x78705e0" />
+  <activeNode nodeId="node-0xfff7a00" />
   <item nodeId="node-0x4e3c40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,32 +9,31 @@
 
 Prologue:
 
-Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn&apos;t know much else about her. Ms. Light was the oldest person in town and she didn&apos;t have any friends, so no one knew anythig about her at all. She was a mystery.
+Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn&apos;t know much else about her. Ms. Light had no friends, and she was always
 
-Although you were walking as quitely as possible as to not disturb her (being blind, her eyes were always closed, and she was sitting so still she could have been asleep), Ms. Light moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Or had she smelled you? Or had she sensed your being in its entirety, and knew that you had tried to avoid her? You had to admit that Ms. Light&apos;s ESP was more than a little creepy.
+Being blind, Ms. Light&apos;s eyes were always closed, and she was sitting so still she could have been asleep. Although you were walking as quitely as possible as to not disturb her, Ms. Light moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Maybe she had she smelled you? Or maybe she had sensed your presence, and knew that you had tried to avoid her? Wahtever it was, you had to admit that Ms. Light&apos;s ESP was more than a little creepy.
 
-Before you could even say anything, Ms. Light said in her low, scratchy voice, &quot;Ah, I&apos;ve been waiting for you. I&apos;m going out of town tomorrow night, and I need someone to watch my house for me...
+Before you could even say anything, Ms. Light uttered in a low, scratchy voice, &quot;Ah, I&apos;ve been waiting for you. I&apos;m going out of town tomorrow night, and I need you to watch my house for me...
 
 
 
 
 Lights Out
 An Interactive Fiction by Lee-Won Fulbright
-Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Ms Light&apos;s Driveway
-You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">NO</temporary>
+    <temporary score="297">NO</temporary>
     <children>
       <child nodeId="node-0x443f50" />
+      <child nodeId="node-0xea1ca10" />
       <child nodeId="node-0x4440a0" />
-      <child nodeId="node-0x444a20" />
       <child nodeId="node-0x4441f0" />
-      <child nodeId="node-0x4442d0" />
       <child nodeId="node-0x4e3cb0" />
     </children>
   </item>
@@ -42,28 +41,230 @@ You were in need of a little bit of cash, and, though you were hesitant, agreed 
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Entrance Room
-You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+You have opened the front door and are in the house&apos;s first room. As you reach to the side of the door for the lights and flip the switch, you realize that the power must have gone out sometime during the storm. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is. You need to find a way to turn the lights back on.
+
+You know that in every house in your neighborhood there is usually a basement containing a back-up generator for power outages during storms like this one. If you can find the generator, it should be fairly simple to get the power back on. However, there might be a code or password needed to activate it.
+
+For now, you can try navigate your way through the house by going North, East, and West.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="297">YES</temporary>
     <children>
       <child nodeId="node-0x444570" />
-      <child nodeId="node-0x4445e0" />
+      <child nodeId="node-0xd215610" />
       <child nodeId="node-0x4e3eb0" />
       <child nodeId="node-0x79c2120" />
-      <child nodeId="node-0x4e3d00" />
+      <child nodeId="node-0x78da5c0" />
     </children>
   </item>
-  <item nodeId="node-0x4e3d00">
-    <command xml:space="preserve">open front door</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x78da5c0">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">A faint smell of mildew lingers. You smell something else, too-- animal hair? It seems to be coming from a Large Object in the middle of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xd24f120" />
+    </children>
+  </item>
+  <item nodeId="node-0xd24f120">
+    <command xml:space="preserve">x object</command>
+    <result xml:space="preserve">Which do you mean, Large object or Hard object?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xd26b320" />
+    </children>
+  </item>
+  <item nodeId="node-0xd26b320">
+    <command xml:space="preserve">x large object</command>
+    <result xml:space="preserve">A large object. It&apos;s hard to examine it using only sight in this darkness.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x79dc310" />
+    </children>
+  </item>
+  <item nodeId="node-0x79dc310">
+    <command xml:space="preserve">x object</command>
+    <result xml:space="preserve">Which do you mean, Large object or Hard object?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xd25dab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd25dab0">
+    <command xml:space="preserve">x large object</command>
+    <result xml:space="preserve">A large object. It&apos;s hard to examine it using only sight in this darkness.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xeace260" />
+    </children>
+  </item>
+  <item nodeId="node-0xeace260">
+    <command xml:space="preserve">x object</command>
+    <result xml:space="preserve">Which do you mean, Large object or Hard object?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="202">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2f5220" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2f5220">
+    <command xml:space="preserve">take large object</command>
+    <result xml:space="preserve">It&apos;s way too big.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xea6ac80" />
+    </children>
+  </item>
+  <item nodeId="node-0xea6ac80">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x78099c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78099c0">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">An object that&apos;s in the shape of a box. It&apos;s hard to examine it using only sight in this darkness.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xeabdea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeabdea0">
+    <command xml:space="preserve">feel box</command>
+    <result xml:space="preserve">It&apos;s small enough to fit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xea78dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xea78dd0">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Box)
+It&apos;s small enough to fit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x795d730" />
+    </children>
+  </item>
+  <item nodeId="node-0x795d730">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Box)
+It&apos;s small enough to fit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaf3f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaf3f20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xea39640" />
+    </children>
+  </item>
+  <item nodeId="node-0xea39640">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e47f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e47f0">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Box)
+It&apos;s small enough to fit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2db720" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2db720">
+    <command xml:space="preserve">drop box</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaaa310" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaaa310">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Box)
+It&apos;s small enough to fit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="195">YES</temporary>
   </item>
   <item nodeId="node-0x79c2120">
     <command xml:space="preserve">x</command>
@@ -72,7 +273,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x7839b80" />
     </children>
@@ -85,7 +286,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78624a0" />
     </children>
@@ -99,7 +300,7 @@ You were in need of a little bit of cash, and, though you were hesitant, agreed 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x166340" />
     </children>
@@ -113,7 +314,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78e8f60" />
     </children>
@@ -125,7 +326,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x799aa00" />
     </children>
@@ -137,19 +338,19 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78e5a00" />
     </children>
   </item>
   <item nodeId="node-0x78e5a00">
     <command xml:space="preserve">feel large object</command>
-    <result xml:space="preserve">The large object is almost twice as big as you. It&apos;s soft and cushy.
+    <result xml:space="preserve">The large object is almost twice as big as you. It&apos;s soft and cushy. You bumped into a hard object next to the large object.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78565d0" />
     </children>
@@ -161,7 +362,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78d7c50" />
     </children>
@@ -173,7 +374,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78ccfd0" />
     </children>
@@ -185,7 +386,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x785c8f0" />
     </children>
@@ -197,7 +398,7 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x79a7660" />
     </children>
@@ -208,8 +409,8 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="86">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x783f180" />
     </children>
@@ -220,17 +421,80 @@ You have opened the front door and are in the house&apos;s first room. It&apos;s
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="86">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="161">YES</temporary>
     <children>
       <child nodeId="node-0x78705e0" />
     </children>
   </item>
   <item nodeId="node-0x78705e0">
     <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0x7971330" />
+    </children>
+  </item>
+  <item nodeId="node-0x7971330">
+    <command xml:space="preserve">x button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="85">YES</temporary>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0x7814500" />
+    </children>
+  </item>
+  <item nodeId="node-0x7814500">
+    <command xml:space="preserve">touch button carefully</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0x78231e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78231e0">
+    <command xml:space="preserve">touch carefully button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0x24cef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x24cef0">
+    <command xml:space="preserve">touch button </command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0x7872640" />
+    </children>
+  </item>
+  <item nodeId="node-0x7872640">
+    <command xml:space="preserve">touch box carefully</command>
+    <result xml:space="preserve">I only understood you as far as wanting to touch Box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="160">YES</temporary>
   </item>
   <item nodeId="node-0x4e3eb0">
     <command xml:space="preserve">n</command>
@@ -250,8 +514,6 @@ North of Living Room is the Kitchen, West is the Bathroom, and East is your pare
     <temporary score="165">YES</temporary>
     <children>
       <child nodeId="node-0x4446c0" />
-      <child nodeId="node-0x444730" />
-      <child nodeId="node-0x4447a0" />
       <child nodeId="node-0x4450e0" />
       <child nodeId="node-0x444cf0" />
       <child nodeId="node-0x4455d0" />
@@ -707,24 +969,6 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="107">YES</temporary>
   </item>
-  <item nodeId="node-0x4447a0">
-    <command xml:space="preserve">x front wall</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="53">YES</temporary>
-  </item>
-  <item nodeId="node-0x444730">
-    <command xml:space="preserve">x front-wall</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="56">YES</temporary>
-  </item>
   <item nodeId="node-0x4446c0">
     <command xml:space="preserve">x first wall</command>
     <result xml:space="preserve">You do not feel anything on the wall besides some cobwebs and picture frames.
@@ -746,14 +990,83 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="68">YES</temporary>
   </item>
-  <item nodeId="node-0x4445e0">
-    <command xml:space="preserve">x window</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0xd215610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x117bbd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x117bbd20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. As you reach to the side of the door for the lights and flip the switch, you realize that the power must have gone out sometime during the storm. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is. You need to find a way to turn the lights back on.
+
+You know that in every house in your neighborhood there is usually a basement containing a back-up generator for power outages during storms like this one. If you can find the generator, it should be fairly simple to get the power back on. However, there might be a code or password needed to activate it.
+
+For now, you can try navigate your way through the house by going North, East, and West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaf8770" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaf8770">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+East room
+Going East, you travel down a flight of stairs. You assume that you must be in the basement. The generator should be in here somewhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x401fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x401fb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0xeafb320" />
+    </children>
+  </item>
+  <item nodeId="node-0xeafb320">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">At first the room is completely silent. Then, out of nowhere you hear a single high-pitched sound coming from the middle of the room. It definitely sounds like a piano.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0xfff7a00" />
+    </children>
+  </item>
+  <item nodeId="node-0xfff7a00">
+    <command xml:space="preserve">x piano</command>
+    <result xml:space="preserve">A large piano rests solemnly in the middle of the room. From what you can tell, there is nothing else in the room.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="27">YES</temporary>
+    <temporary score="296">YES</temporary>
   </item>
   <item nodeId="node-0x444570">
     <command xml:space="preserve">x house</command>
@@ -826,30 +1139,6 @@ You were in need of a little bit of cash, and, though you were hesitant, agreed 
     <changed>YES</changed>
     <temporary score="93">YES</temporary>
   </item>
-  <item nodeId="node-0x4442d0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Keys
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x444260" />
-    </children>
-  </item>
-  <item nodeId="node-0x444260">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-House
-Your small blue house sits at the end of the culdesac. There are two levels as well as a basemement. There is a single large window. The front door looks surprisingly uninviting.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-  </item>
   <item nodeId="node-0x4441f0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Ms Light&apos;s Driveway
@@ -884,65 +1173,6 @@ You were in need of a little bit of cash, and, though you were hesitant, agreed 
     <changed>YES</changed>
     <temporary score="100">YES</temporary>
   </item>
-  <item nodeId="node-0x444a20">
-    <command xml:space="preserve">x car</command>
-    <result xml:space="preserve">Your parents&quot; old car. It appears locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="37">YES</temporary>
-    <children>
-      <child nodeId="node-0x444a90" />
-    </children>
-  </item>
-  <item nodeId="node-0x444a90">
-    <command xml:space="preserve">open car</command>
-    <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="37">YES</temporary>
-    <children>
-      <child nodeId="node-0x444b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x444b00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Front door
-Your small blue house sits at the end of the culdesac. There are two levels as well as a basemement. There is a single large window. The front door looks surprisingly uninviting.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="37">YES</temporary>
-    <children>
-      <child nodeId="node-0x444180" />
-    </children>
-  </item>
-  <item nodeId="node-0x444180">
-    <command xml:space="preserve">x window</command>
-    <result xml:space="preserve">It&apos;s pitch black inside. Everyone&apos;s probably asleep by now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="37">YES</temporary>
-    <children>
-      <child nodeId="node-0x444110" />
-    </children>
-  </item>
-  <item nodeId="node-0x444110">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-  </item>
   <item nodeId="node-0x4440a0">
     <command xml:space="preserve">smell</command>
     <result xml:space="preserve">You smell nothing unexpected.
@@ -963,6 +1193,272 @@ Your small blue house sits at the end of the culdesac. There are two levels as w
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="95">YES</temporary>
+  </item>
+  <item nodeId="node-0xea1ca10">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xead0730" />
+    </children>
+  </item>
+  <item nodeId="node-0xead0730">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">What do you want to touch?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2ed9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2ed9d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xff75130" />
+    </children>
+  </item>
+  <item nodeId="node-0xff75130">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0x7955b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x7955b00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+North room
+There is a tiny button blinking a red light on what must be an electrical appliance hooked up to the wall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xd24dbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd24dbb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xea59610" />
+    </children>
+  </item>
+  <item nodeId="node-0xea59610">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Switch)
+You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0x79e45a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x79e45a0">
+    <command xml:space="preserve">large object</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaabee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaabee0">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Switch)
+You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xead2260" />
+    </children>
+  </item>
+  <item nodeId="node-0xead2260">
+    <command xml:space="preserve">box</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0x784fc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x784fc10">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Switch)
+You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaeefe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaeefe0">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xff76290" />
+    </children>
+  </item>
+  <item nodeId="node-0xff76290">
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Switch)
+You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xe7c1560" />
+    </children>
+  </item>
+  <item nodeId="node-0xe7c1560">
+    <command xml:space="preserve">touch large object</command>
+    <result xml:space="preserve">The large object is almost twice as big as you. It&apos;s soft and cushy. You bumped into a hard object next to the large object.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xea24cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xea24cc0">
+    <command xml:space="preserve">feel</command>
+    <result xml:space="preserve">(Switch)
+You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaf7fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaf7fe0">
+    <command xml:space="preserve">touch room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xea27840" />
+    </children>
+  </item>
+  <item nodeId="node-0xea27840">
+    <command xml:space="preserve">touch north room</command>
+    <result xml:space="preserve">I only understood you as far as wanting to touch north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xd204500" />
+    </children>
+  </item>
+  <item nodeId="node-0xd204500">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xea71d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xea71d20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0x7810ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7810ac0">
+    <command xml:space="preserve">touch entrance room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="272">YES</temporary>
+    <children>
+      <child nodeId="node-0xffa30f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xffa30f0">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">An object that&apos;s in the shape of a box. It&apos;s hard to examine it using only sight in this darkness.
+
+On Box is Switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="271">YES</temporary>
   </item>
   <item nodeId="node-0x443f50">
     <command xml:space="preserve">listen</command>
