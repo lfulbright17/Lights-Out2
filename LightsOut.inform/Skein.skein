@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x4e3c40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x78705e0" />
+  <item nodeId="node-0x4e3c40">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Prologue:
+
+Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn&apos;t know much else about her. Ms. Light was the oldest person in town and she didn&apos;t have any friends, so no one knew anythig about her at all. She was a mystery.
+
+Although you were walking as quitely as possible as to not disturb her (being blind, her eyes were always closed, and she was sitting so still she could have been asleep), Ms. Light moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Or had she smelled you? Or had she sensed your being in its entirety, and knew that you had tried to avoid her? You had to admit that Ms. Light&apos;s ESP was more than a little creepy.
+
+Before you could even say anything, Ms. Light said in her low, scratchy voice, &quot;Ah, I&apos;ve been waiting for you. I&apos;m going out of town tomorrow night, and I need someone to watch my house for me...
+
+
+
+
+Lights Out
+An Interactive Fiction by Lee-Won Fulbright
+Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">NO</temporary>
+    <children>
+      <child nodeId="node-0x443f50" />
+      <child nodeId="node-0x4440a0" />
+      <child nodeId="node-0x444a20" />
+      <child nodeId="node-0x4441f0" />
+      <child nodeId="node-0x4442d0" />
+      <child nodeId="node-0x4e3cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e3cb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x444570" />
+      <child nodeId="node-0x4445e0" />
+      <child nodeId="node-0x4e3eb0" />
+      <child nodeId="node-0x79c2120" />
+      <child nodeId="node-0x4e3d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e3d00">
+    <command xml:space="preserve">open front door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x79c2120">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x7839b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7839b80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78624a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78624a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x166340" />
+    </children>
+  </item>
+  <item nodeId="node-0x166340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Entrance Room
+You have opened the front door and are in the house&apos;s first room. It&apos;s too dark to see, so you can&apos;t tell what the purpose of the room is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e8f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e8f60">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">A faint smell of mildew lingers. You smell something else, too-- animal hair? It seems to be coming from a large object in the middle of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x799aa00" />
+    </children>
+  </item>
+  <item nodeId="node-0x799aa00">
+    <command xml:space="preserve">look under large object</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78e5a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x78e5a00">
+    <command xml:space="preserve">feel large object</command>
+    <result xml:space="preserve">The large object is almost twice as big as you. It&apos;s soft and cushy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78565d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78565d0">
+    <command xml:space="preserve">touch entrace room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78d7c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x78d7c50">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">A faint smell of mildew lingers. You smell something else, too-- animal hair? It seems to be coming from a large object in the middle of the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ccfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ccfd0">
+    <command xml:space="preserve">follow smell</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x785c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x785c8f0">
+    <command xml:space="preserve">x large object</command>
+    <result xml:space="preserve">A large object. It&apos;s hard to examine it using only sight in this darkness.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x79a7660" />
+    </children>
+  </item>
+  <item nodeId="node-0x79a7660">
+    <command xml:space="preserve">smell large object</command>
+    <result xml:space="preserve">The smell of mildew is overpowering.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x783f180" />
+    </children>
+  </item>
+  <item nodeId="node-0x783f180">
+    <command xml:space="preserve">smell large object</command>
+    <result xml:space="preserve">The smell of mildew is overpowering.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x78705e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78705e0">
+    <command xml:space="preserve">take box</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="85">YES</temporary>
+  </item>
+  <item nodeId="node-0x4e3eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Living room
+You have opened the front door and are in the house&apos;s living room. It&apos;s too dark to see.
+
+You hear a faint sound coming from the basement. It is slowly but surely getting louder. Is it moving towards you? You have an urge to find the source of the sound.
+
+Maybe you should try turn on the back up generator first before doing anything. You remember the generator is in the basement.
+
+North of Living Room is the Kitchen, West is the Bathroom, and East is your parent&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x4446c0" />
+      <child nodeId="node-0x444730" />
+      <child nodeId="node-0x4447a0" />
+      <child nodeId="node-0x4450e0" />
+      <child nodeId="node-0x444cf0" />
+      <child nodeId="node-0x4455d0" />
+      <child nodeId="node-0x4e3f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e3f00">
+    <command xml:space="preserve">x north wall</command>
+    <result xml:space="preserve">You do not feel anything on the wall besides some cobwebs and picture frames.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x445870" />
+    </children>
+  </item>
+  <item nodeId="node-0x445870">
+    <command xml:space="preserve">x picture frames</command>
+    <result xml:space="preserve">Just a bunch of old family photos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x445820" />
+    </children>
+  </item>
+  <item nodeId="node-0x445820">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x445750" />
+    </children>
+  </item>
+  <item nodeId="node-0x445750">
+    <command xml:space="preserve">x e</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x445700" />
+    </children>
+  </item>
+  <item nodeId="node-0x445700">
+    <command xml:space="preserve">l entry</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x4456b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4456b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Front door
+Your small blue house sits at the end of the culdesac. There are two levels as well as a basemement. There is a single large window. The front door is surprisingly open. North is the entrance to your house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x445640" />
+    </children>
+  </item>
+  <item nodeId="node-0x445640">
+    <command xml:space="preserve">x picture frames</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+  </item>
+  <item nodeId="node-0x4455d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x4454a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4454a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living room
+You have opened the front door and are in the house&apos;s living room. It&apos;s too dark to see.
+
+You hear a faint sound coming from the basement. It is slowly but surely getting louder. Is it moving towards you? You have an urge to find the source of the sound.
+
+Maybe you should try turn on the back up generator first before doing anything. You remember the generator is in the basement.
+
+North of Living Room is the Kitchen, West is the Bathroom, and East is your parent&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445450" />
+    </children>
+  </item>
+  <item nodeId="node-0x445450">
+    <command xml:space="preserve">x pantry</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445400" />
+    </children>
+  </item>
+  <item nodeId="node-0x445400">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x4453b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4453b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445360" />
+    </children>
+  </item>
+  <item nodeId="node-0x445360">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living room
+You have opened the front door and are in the house&apos;s living room. It&apos;s too dark to see.
+
+You hear a faint sound coming from the basement. It is slowly but surely getting louder. Is it moving towards you? You have an urge to find the source of the sound.
+
+Maybe you should try turn on the back up generator first before doing anything. You remember the generator is in the basement.
+
+North of Living Room is the Kitchen, West is the Bathroom, and East is your parent&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x4452f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4452f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent&apos;s room
+I&apos;m not allowed to be in here. I won&apos;t look through their stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445280" />
+    </children>
+  </item>
+  <item nodeId="node-0x445280">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You have opened the front door and are in the house&apos;s living room. It&apos;s too dark to see.
+
+You hear a faint sound coming from the basement. It is slowly but surely getting louder. Is it moving towards you? You have an urge to find the source of the sound.
+
+Maybe you should try turn on the back up generator first before doing anything. You remember the generator is in the basement.
+
+North of Living Room is the Kitchen, West is the Bathroom, and East is your parent&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445210" />
+    </children>
+  </item>
+  <item nodeId="node-0x445210">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+There&apos;s not much in here. A stove, a pantry, and a trashcan.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445550" />
+    </children>
+  </item>
+  <item nodeId="node-0x445550">
+    <command xml:space="preserve">x pantry</command>
+    <result xml:space="preserve">There is a knife here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x4454f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4454f0">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x445000" />
+    </children>
+  </item>
+  <item nodeId="node-0x445000">
+    <command xml:space="preserve">x knife</command>
+    <result xml:space="preserve">A sharp knife.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x444f90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Living room
+You have opened the front door and are in the house&apos;s living room. It&apos;s too dark to see.
+
+You hear a faint sound coming from the basement. It is slowly but surely getting louder. Is it moving towards you? You have an urge to find the source of the sound.
+
+Maybe you should try turn on the back up generator first before doing anything. You remember the generator is in the basement.
+
+North of Living Room is the Kitchen, West is the Bathroom, and East is your parent&apos;s room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x444f20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Parent&apos;s room
+I&apos;m not allowed to be in here. I won&apos;t look through their stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x444eb0">
+    <command xml:space="preserve">x room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x444e40">
+    <command xml:space="preserve">x parents room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x444dd0">
+    <command xml:space="preserve">x parent&apos;s room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x444d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x444d60">
+    <command xml:space="preserve">l</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="164">YES</temporary>
+  </item>
+  <item nodeId="node-0x444cf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x444ba0" />
+      <child nodeId="node-0x444c10" />
+      <child nodeId="node-0x444c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x444c80">
+    <command xml:space="preserve">x front-wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x444c10">
+    <command xml:space="preserve">x first wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+  </item>
+  <item nodeId="node-0x444ba0">
+    <command xml:space="preserve">x pic</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x445140" />
+    </children>
+  </item>
+  <item nodeId="node-0x445140">
+    <command xml:space="preserve">x picture frames</command>
+    <result xml:space="preserve">Just a bunch of old family photos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x445090" />
+    </children>
+  </item>
+  <item nodeId="node-0x445090">
+    <command xml:space="preserve">x cobwebs</command>
+    <result xml:space="preserve">Gross!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0x4450e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
+    <children>
+      <child nodeId="node-0x4448f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4448f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West Wall
+You feel nothing on the wall except for the door into the hallway. Best to look for the light switch before you go there.
+
+You can see Hallway here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
+    <children>
+      <child nodeId="node-0x444880" />
+    </children>
+  </item>
+  <item nodeId="node-0x444880">
+    <command xml:space="preserve">x hallway</command>
+    <result xml:space="preserve">The hallway leading to the bathroom, your parents&quot; bedroom, and your own bedroom. It appears to be locked for some reason. It is west of West Wall
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
+    <children>
+      <child nodeId="node-0x444810" />
+    </children>
+  </item>
+  <item nodeId="node-0x444810">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening Hallway)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+  </item>
+  <item nodeId="node-0x4447a0">
+    <command xml:space="preserve">x front wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+  </item>
+  <item nodeId="node-0x444730">
+    <command xml:space="preserve">x front-wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0x4446c0">
+    <command xml:space="preserve">x first wall</command>
+    <result xml:space="preserve">You do not feel anything on the wall besides some cobwebs and picture frames.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x444650" />
+    </children>
+  </item>
+  <item nodeId="node-0x444650">
+    <command xml:space="preserve">x picture frames</command>
+    <result xml:space="preserve">Just a bunch of old family photos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0x4445e0">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0x444570">
+    <command xml:space="preserve">x house</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x444500" />
+    </children>
+  </item>
+  <item nodeId="node-0x444500">
+    <command xml:space="preserve">l house</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x444490" />
+    </children>
+  </item>
+  <item nodeId="node-0x444490">
+    <command xml:space="preserve">x ms light&apos;s house</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x444420" />
+    </children>
+  </item>
+  <item nodeId="node-0x444420">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x4443b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4443b0">
+    <command xml:space="preserve">x house</command>
+    <result xml:space="preserve">Ms. Light&apos;s one-story house at the end of the culdesac looks about as decrepit and off-putting as she is. You have never been inside before, so you&apos;re unfamiliar with the house&apos;s layout. Go North through Front Door and into Entrance Room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x444340" />
+    </children>
+  </item>
+  <item nodeId="node-0x444340">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You smell nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="93">YES</temporary>
+  </item>
+  <item nodeId="node-0x4442d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Keys
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x444260" />
+    </children>
+  </item>
+  <item nodeId="node-0x444260">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+House
+Your small blue house sits at the end of the culdesac. There are two levels as well as a basemement. There is a single large window. The front door looks surprisingly uninviting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x4441f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Ms Light&apos;s Driveway
+You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for your mysterious old neighbor Ms. Light while she&apos;s out of town. It&apos;s storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x444940" />
+    </children>
+  </item>
+  <item nodeId="node-0x444940">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x4449b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4449b0">
+    <command xml:space="preserve">listen to ms lights driveway</command>
+    <result xml:space="preserve">I only understood you as far as wanting to listen to Ms Light&apos;s house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+  </item>
+  <item nodeId="node-0x444a20">
+    <command xml:space="preserve">x car</command>
+    <result xml:space="preserve">Your parents&quot; old car. It appears locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x444a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x444a90">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x444b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x444b00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front door
+Your small blue house sits at the end of the culdesac. There are two levels as well as a basemement. There is a single large window. The front door looks surprisingly uninviting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x444180" />
+    </children>
+  </item>
+  <item nodeId="node-0x444180">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">It&apos;s pitch black inside. Everyone&apos;s probably asleep by now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x444110" />
+    </children>
+  </item>
+  <item nodeId="node-0x444110">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+  <item nodeId="node-0x4440a0">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You smell nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x444030" />
+    </children>
+  </item>
+  <item nodeId="node-0x444030">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+  </item>
+  <item nodeId="node-0x443f50">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x443ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x443ee0">
+    <command xml:space="preserve">taste</command>
+    <result xml:space="preserve">What do you want to taste?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+  </item>
+</Skein>
