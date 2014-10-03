@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4e3c40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xfff7a00" />
+  <activeNode nodeId="node-0xff3de30" />
   <item nodeId="node-0x4e3c40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,9 +9,9 @@
 
 Prologue:
 
-Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn&apos;t know much else about her. Ms. Light had no friends, and she was always
+Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn&apos;t know much else about her. Everyone in town know&apos;s she&apos;s crazy, though. She hardly left her house after all, which made her appearence even more strange. Ms. Light had no friends, and she was always singing a disturbing song quietly to herself.
 
-Being blind, Ms. Light&apos;s eyes were always closed, and she was sitting so still she could have been asleep. Although you were walking as quitely as possible as to not disturb her, Ms. Light moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Maybe she had she smelled you? Or maybe she had sensed your presence, and knew that you had tried to avoid her? Wahtever it was, you had to admit that Ms. Light&apos;s ESP was more than a little creepy.
+You were walking as quitely as possible as to not disturb her (she was singing again). Then, Ms. Light abruptly stopped singing and moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Maybe she had smelled you? Or maybe she had sensed your presence, and knew that you had tried to avoid her? Whatever it was, you had to admit that Ms. Light&apos;s ESP was more than a little creepy.
 
 Before you could even say anything, Ms. Light uttered in a low, scratchy voice, &quot;Ah, I&apos;ve been waiting for you. I&apos;m going out of town tomorrow night, and I need you to watch my house for me...
 
@@ -27,8 +27,8 @@ You were in need of a little bit of cash, and, though you were hesitant, agreed 
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="297">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="326">NO</temporary>
     <children>
       <child nodeId="node-0x443f50" />
       <child nodeId="node-0xea1ca10" />
@@ -50,7 +50,7 @@ For now, you can try navigate your way through the house by going North, East, a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0x444570" />
       <child nodeId="node-0xd215610" />
@@ -998,7 +998,7 @@ West room
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0x117bbd20" />
     </children>
@@ -1016,7 +1016,7 @@ For now, you can try navigate your way through the house by going North, East, a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0xeaf8770" />
     </children>
@@ -1030,7 +1030,7 @@ Going East, you travel down a flight of stairs. You assume that you must be in t
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0x401fb0" />
     </children>
@@ -1042,7 +1042,7 @@ Going East, you travel down a flight of stairs. You assume that you must be in t
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0xeafb320" />
     </children>
@@ -1054,19 +1054,56 @@ Going East, you travel down a flight of stairs. You assume that you must be in t
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="326">YES</temporary>
     <children>
       <child nodeId="node-0xfff7a00" />
     </children>
   </item>
   <item nodeId="node-0xfff7a00">
     <command xml:space="preserve">x piano</command>
-    <result xml:space="preserve">A large piano rests solemnly in the middle of the room. From what you can tell, there is nothing else in the room.
+    <result xml:space="preserve">After a quick search of the room, you find large piano resting solemnly in the center. From what you can tell, there is nothing else in the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="326">YES</temporary>
+    <children>
+      <child nodeId="node-0xfff2b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xfff2b60">
+    <command xml:space="preserve">push a key</command>
+    <result xml:space="preserve">(the Key)
+You pushed the A key and a note played.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="326">YES</temporary>
+    <children>
+      <child nodeId="node-0xff2d170" />
+    </children>
+  </item>
+  <item nodeId="node-0xff2d170">
+    <command xml:space="preserve">push b key</command>
+    <result xml:space="preserve">You pressed the B key and a note played.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="326">YES</temporary>
+    <children>
+      <child nodeId="node-0xff3de30" />
+    </children>
+  </item>
+  <item nodeId="node-0xff3de30">
+    <command xml:space="preserve">push c key</command>
+    <result xml:space="preserve">You pressed the C key and a note played.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="296">YES</temporary>
+    <temporary score="325">YES</temporary>
   </item>
   <item nodeId="node-0x444570">
     <command xml:space="preserve">x house</command>

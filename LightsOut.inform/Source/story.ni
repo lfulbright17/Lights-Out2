@@ -4,7 +4,7 @@ Use scoring. The target score is a number variable. The target score is 10.
 
 When play begins: say "Prologue: 
 
-Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn't know much else about her. She hardly left her house after all, which made her appearence even more strange. Ms. Light had no friends, and she was always singing a disturbing song quietly to herself.
+Last night, while walking down the lonely sidewalk back to your house, you noticed several feet ahead of you was your neighbor, Ms. Light, sitting alone on a sidewalk bench. You had always felt sorry for the old woman (she looked about 100 years old), because she was both blind and a widow. You didn't know much else about her. Everyone in town know's she's crazy, though. She hardly left her house after all, which made her appearence even more strange. Ms. Light had no friends, and she was always singing a disturbing song quietly to herself.
 
 You were walking as quitely as possible as to not disturb her (she was singing again). Then, Ms. Light abruptly stopped singing and moved her head in your direction, acknowledging your presence. She had heard you from over 30 meters away! Maybe she had smelled you? Or maybe she had sensed your presence, and knew that you had tried to avoid her? Whatever it was, you had to admit that Ms. Light's ESP was more than a little creepy. 
 
@@ -15,6 +15,24 @@ Before you could even say anything, Ms. Light uttered in a low, scratchy voice, 
 "
 
 Description of player is "You are wearing a simple t-shirt, jeans , and sneakers. You are carrying nothing."
+
+a thing has a text called odor.
+
+a room has a text called odor. 
+
+a thing has a text called sound.
+
+a room has a text called sound. 
+
+a thing has a text called touch.
+
+a thing has a text called press.
+
+a thing has a text called pull. 
+
+a thing has a text called taste. 
+
+a thing has a text called push. 
 
 Ms Light's Driveway is a room. Description of Driveway is "You were in need of a little bit of cash, and, though you were hesitant, agreed to house-sit for Ms. Light while she's out of town. It's storming tonight. You are currently getting rained on. Better get out of the rain right away. You can see Ms. Light's house." Instead of listening to ms light's driveway: say "The rain is pounding on you and the driveway pavement. It's hard to hear much else." Instead of smelling ms light's driveway: say "All you smell is rain."
 
@@ -40,7 +58,7 @@ Box is a thing. Box is in entrance room. box is undescribed. Description is "An 
 
 Switch is a thing. It is on box. It is undescribed. Description is "A small switch." Instead of pulling switch: say "You flip the switch and you hear an audio recording being emitted from the box. The recording was low quality, and you strained to hear it. A bone-chilling music piece begins to play from what sounds like a piano. The unknown vocalist sings about drowning in a bathtub along to a sad melody. 'Turn the faucet,' the ghastly voice croons. Did Ms. Light compose this?" 
 
-North room is a room. north room is north of entrance room. Description is "Going north down a flight of stairs, you assume"
+North room is a room. north room is north of entrance room. Description is "You can't see much of the north room in this darkness."
 
 West room is a room. west room is west of entrance room. 
 
@@ -50,38 +68,40 @@ Piano is a thing. Piano is in East room. it is undescribed. Description of piano
 
 You can play the piano by pressing one key at a time." 
 
-A Key is a thing. It is on piano. It is undescribed. The A key can be on or off. The A key is off. Instead of pressing A Key: say "You pressed the A key and a note played." After pressing A key: Now A key is on. 
-
-B Key is a thing. It is on piano. It is undescribed. The B key can be on or off. The B key is off. Instead of pressing A Key: say "You pressed the B key and a note played." After pressing B key: Now B key is on. 
-
-C Key is a thing. It is on piano. It is undescribed. The C key can be on or off. The C key is off. Instead of pressing C Key: say "You pressed the C key and a note played." After pressing C key: Now C key is on. 
-
-D Key is a thing. It is on piano. It is undescribed. The D key can be on or off. The D key is off. Instead of pressing D Key: say "You pressed the D key and a note played." After pressing D key: Now D key is on. 
-
-E Key is a thing. It is on piano. It is undescribed. The E key can be on or off. The E key is off. Instead of pressing E Key: say "You pressed the E key and a note played." After pressing E key: Now E key is on. 
-
-F Key is a thing. It is on piano. It is undescribed. The F key can be on or off. The F key is off. Instead of pressing F Key: say "You pressed the F key and a note played." After pressing F key: Now F key is on. 
-
-G Key is a thing. It is on piano. It is undescribed. The G key can be on or off. The G key is off. Instead of pressing A Key: say "You pressed the G key and a note played." After pressing G key: Now G key is on. 
-
 Instead of smelling piano: say "The metallic scent seems to be coming from the piano."
 
 Liquid is a thing. Liquid is on piano. It is undescribed. Description is "The unknown liquid is a bit warm." Instead of taking liquid: say "You don't even know what it is! You have no means of transporting it, anyway." Instead of tasting liquid: say "Even though it's completely unsanitary and disgusting, you dip your finger in the liquid and have a quick taste. It tastes like iron."
 
-a thing has a text called odor.
+A Key is a thing. It is on piano. It is undescribed. The A key can be on or off. The A key is off. Instead of pushing Key: say "You pushed the A key and a note played." After pushing A key: Now A key is on. 
 
-a room has a text called odor. 
+B Key is a thing. It is on piano. It is undescribed. The B key can be on or off. The B key is off. Instead of pushing B Key: say "You pressed the B key and a note played." After pushing B key: Now B key is on. 
 
-a thing has a text called sound.
+C Key is a thing. It is on piano. It is undescribed. The C key can be on or off. The C key is off. Instead of pushing C Key: say "You pressed the C key and a note played." After pushing C key: Now C key is on. 
 
-a room has a text called sound. 
+D Key is a thing. It is on piano. It is undescribed. The D key can be on or off. The D key is off. Instead of pushing D Key: say "You pressed the D key and a note played." After pushing D key: Now D key is on. 
 
-a thing has a text called touch.
+E Key is a thing. It is on piano. It is undescribed. The E key can be on or off. The E key is off. Instead of pushing E Key: say "You pressed the E key and a note played." After pushing E key: Now E key is on. 
 
-a thing has a text called press.
+F Key is a thing. It is on piano. It is undescribed. The F key can be on or off. The F key is off. Instead of pushing F Key: say "You pressed the F key and a note played." After pushing F key: Now F key is on. 
 
-a thing has a text called pull. 
+G Key is a thing. It is on piano. It is undescribed. The G key can be on or off. The G key is off. Instead of pushing A Key: say "You pressed the G key and a note played." After pushing G key: Now G key is on. 
 
-a thing has a text called taste. 
+Light 1 is a thing. it is in east room. it is undescribed. Light 1 can be on or off. Light 1 is off. After turning on C key: Now Light 1 is on. 
+
+Light 2 is a thing. it is in east room. it is undescribed. Light 2 can be on or off. Light 2 is off. After turning on A key: Now Light 2 is on. 
+
+Light 3 is a thing. it is in east room. it is undescribed. Light 3 can be on or off. Light 3 is off. After turning on G key: Now Light 3 is on. 
+
+Light 4 is a thing. it is in east room. it is undescribed. Light 4 can be on or off. Light 4 is off. After turning on E key: Now Light 4 is on. 
+
+Light 5 is a thing. it is in east room. it is undescribed. Light 5 can be on or off. Light 5 is off. After turning on D key: Now Light 5 is on. 
+
+Understand "pushing [something]" as turning on. Turning on is an action applying to things. 
+
+
+After pushing all things: say "From somewhere inside the piano, a loud Whirring noise started and the lights in the house begin to come on. Now that your surroundings are finally visible, you can see the piano splattered red, and standing behind you, is Ms. Light.
+
+							
+End."
 
 
