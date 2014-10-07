@@ -1,0 +1,14 @@
+
+	Lights Out is set in the dark and peculiar home of Ms. Light. While house-sitting for her, the player must find their way around the house just like Ms. Light does— completely blind. Using all of your senses, the player must find a way to find and turn on the generator. 
+
+	I wanted to make a game where the primary source of inspection was not looking/examining, but the other, often neglected, senses like smelling and listening. So, I decided to have the player solve a puzzle that required listening to music notes. During the game, the player must discover a musical-note code, and later use the same code to activate the generator. This was a puzzle with the unusual use of objects because the piano is really the generator/has generator in it, and the long-container/bathtub supplies the musical code. This puzzle could be described as an information-puzzle, because a known code/password needs to be provided by the player. 
+	I also included a very small riddle-puzzle when the player flips the switch on the small-box and listens to the music recording. The voice on the recording tells the player to “turn the [bathtub] faucet”. However, where the bathtub faucet or even where the bathroom is may not be obvious to the player at first. You must inspect each room carefully, and use clues to deduce what each piece of un-identifiable furniture could be. The faucet turns out to be what the player believes to be a kind of knob on a long-container (bathtub). 
+
+	The four rooms in Lights Out are Ms. Light’s Driveway, Entrance-Room, North-Room, and East-Room. The main objects necessary to complete the game are large-objects, hard-object, small-box, switch, long-object, knob, and piano. 
+
+	Thanks to the help of Mrs. Kiang, I was able to learn how to create actions that apply to a topic, carry out an action, and creating a table of topics and responses. I had tried coding for entering each individual note to the piano, but I could not figure out how to code it without creating more problems for myself each time (for example: many different possible combinations of notes that a player could enter, complications with turning notes on/off, and triggering the end of the game). By creating a table of songs and using topics, I was finally able to have a working game. By understanding the coding that Mrs. Kiang had sent me, I was able to use it in other parts of the game as well. 
+
+	Besides Mrs. Kiang (mentioned above), the majority of my coding references were from Jim Aikin’s Inform Handbook. The organization of each topic made them easy to find and learn, and the examples given were easy to understand. I also learned so much from my classmates and from playing their games. Since we were often coding for similar things, it was nice to be able to ask for their help when I was stuck. 
+
+
+ 

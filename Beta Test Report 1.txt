@@ -1,0 +1,16 @@
+Beta Test Report 1- w/ Cole
+
+-Player did not know where to go from starting room (Ms. Light’s Driveway) because directions were not given. Player was supposed to first examine the house, which was in the description of Ms. Light’s driveway, and then be given directions. But, prompt was not clear enough: Instead of simply mentioning the house in the description (because I wanted the player to examine house before knowing directions) of Ms. Light’s Driveway, I prompted the player by saying “You should take a quick look at Miss Light's house for the first time."
+
+-Player did not understand to use all senses when inspecting all of the rooms/objects, missing out on vital clues and story lines: In description of entrance room, I wrote “NOTE:[roman type] It is very important to understand that the house is completely dark. You will not be able to obtain all clues and have a full game experience unless you use ALL/MOST OF YOUR SENSES to interact with each thing/room. Also: While it is possible to 'smell' or 'listen to' a room without specifying object, you cannot 'feel' a room. You must 'feel' or 'touch' specified objects within a room. Smells and sounds of objects can also be different from the room they are located in. Use the clues gathered from what is described to you to help figure out where you are in the house, and what kind of objects you're interacting with.” This message will hopefully stay in the player’s mind as he/she investigates the house.
+
+-Both player and inform had trouble differentiating between the large object and hard object in entrance-room: I changed the names of both items to large-objects and hard-object with the hyphen so that commands are more specific to those items. 
+
+-Player was able to pick up long-object and puddle without my meaning to: I made sure to create the property “It is fixed in place” for all objects, or ‘Instead of taking [object]: say “It’s way too big.” 
+
+-Player attempted to “play piano” and “play music”, which I hadn’t coded: created the action to play piano with Mrs. Kiang’s code. 
+
+-Player did not know how to interact (turn) with handle on long-container: Programmed Understand "pull [something]" and "push [something]" as turning. 
+
+-Player was able to complete game. 
+

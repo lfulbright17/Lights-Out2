@@ -1,0 +1,17 @@
+Beta Test Report 3- w/ Mom
+
+-Player noticed several spelling and grammar errors in prologue (about 100 years old, know’s): Changed all tense to present, fixed spelling and grammar errors. (same as beta test 2 w/ Elana)
+
+-Player tried to examine Ms. Light while in Ms. Light’s Driveway, even though Ms. Light was not there: created Ms. Light as a person in Ms. Light’s Driveway with the description of "Ms. Light is nowhere to be seen. She's probably left town by now."
+
+-Player did not know where to go from starting room (Ms. Light’s Driveway) because directions were not given. Player was supposed to first examine the house, which was in the description of Ms. Light’s driveway, and then be given directions. But, prompt was not clear enough: Instead of simply mentioning the house in the description (because I wanted the player to examine house before knowing directions) of Ms. Light’s Driveway, I prompted the player by saying “You should take a quick look at Miss Light's house for the first time.” (same as beta test 1 and 2 w/ Cole and Elana)
+
+-Player did not understand to use all senses when inspecting all of the rooms/objects, missing out on vital clues and story lines: In description of entrance room, I wrote “NOTE:[roman type] It is very important to understand that the house is completely dark. You will not be able to obtain all clues and have a full game experience unless you use ALL/MOST OF YOUR SENSES to interact with each thing/room. Also: While it is possible to 'smell' or 'listen to' a room without specifying object, you cannot 'feel' a room. You must 'feel' or 'touch' specified objects within a room. Smells and sounds of objects can also be different from the room they are located in. Use the clues gathered from what is described to you to help figure out where you are in the house, and what kind of objects you're interacting with.” This message will hopefully stay in the player’s mind as he/she investigates the house. (same as beta test 1 and 2 w/ Cole and Elana)
+
+-Player tried to examine “box” instead of “Small box”: I changed the name to “Small-box” w/ a hyphen to be more specific, and did this with almost all other items and rooms as well. 
+
+-Player did not know how to interact (pulling) with switch on small-box (tried pushing and flipping switch): I programmed Understand "push [something]" and "flip [something]" as pulling.  
+
+-Player did not know to examine piano when listening to "At first, the room is completely silent. Then, out of nowhere you hear a harsh, high-pitched musical note coming from the middle of the room. It definitely sounds like a piano.”: Player suggested that I change “It sounds like a piano” to “There’s a piano.” Now the description is: "At first, the room is completely silent. Then, out of nowhere you hear a harsh, high-pitched musical note coming from the middle of the room. Startled and wondering who or what could have made that sound, you conclude that there is definitely a piano in the room." Hopefully the player’s first action will be to examine the piano now, because it is definitely there. 
+
+-Player was able to complete game. 

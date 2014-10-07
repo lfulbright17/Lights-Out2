@@ -1,0 +1,17 @@
+Beta Test Report 2- w/ Elana
+
+-Player noticed several spelling and grammar errors in prologue (about 100 years old, know’s): Changed all tense to present, fixed spelling and grammar errors. 
+
+-Player suggested that I have initial descriptions of rooms and objects, so that player notices/doesn’t notice certain things only after inspecting more than once: Changed almost all room descriptions to have initial descriptions by programming with [if unvisited] and [end if] for those conditions. Referred to Jim Aikin’s handbook. Also only included the note about using all senses for the entrance room only if unvisited. 
+
+-Player did not know where to go from starting room (Ms. Light’s Driveway) because directions were not given. Player was supposed to first examine the house, which was in the description of Ms. Light’s driveway, and then be given directions. But, prompt was not clear enough: Instead of simply mentioning the house in the description (because I wanted the player to examine house before knowing directions) of Ms. Light’s Driveway, I prompted the player by saying “You should take a quick look at Miss Light's house for the first time.” (same as beta test 1 w/ Cole)
+
+-Player did not understand to use all senses when inspecting all of the rooms/objects, missing out on vital clues and story lines: In description of entrance room, I wrote “NOTE:[roman type] It is very important to understand that the house is completely dark. You will not be able to obtain all clues and have a full game experience unless you use ALL/MOST OF YOUR SENSES to interact with each thing/room. Also: While it is possible to 'smell' or 'listen to' a room without specifying object, you cannot 'feel' a room. You must 'feel' or 'touch' specified objects within a room. Smells and sounds of objects can also be different from the room they are located in. Use the clues gathered from what is described to you to help figure out where you are in the house, and what kind of objects you're interacting with.” This message will hopefully stay in the player’s mind as he/she investigates the house. (same as beta test 1 w/ Cole)
+
+-Player did not understand that wide-container (with the handle) was supposed to be a bathtub/did not understand its purpose: Changed the name of wide-container to long-container. I also put in more detail in the description of long-container when touched to “You feel every inch of the long-container, and determine that it is deep enough to sit in. It's a bit damp on the inside, and you can assume that it was made to be filled with something. You can feel a knob on one end of the long container." Hopefully player will be able to get a better sense of it now. 
+
+
+-Player did not know how to interact (turn) with handle on long-container (tried pulling and pushing): Player suggested that I change “handle” to “lever”, because most people would only think to pull a lever. I agreed that handle should be changed, but decided on “knob” instead. Then, I programmed Understand "pull [something]" and "push [something]" as turning. 
+
+-Player was able to complete game. 
+ 
