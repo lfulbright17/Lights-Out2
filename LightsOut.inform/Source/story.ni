@@ -1,12 +1,14 @@
 "Lights Out" by Lee-Won Fulbright
 
+Release along with cover art ("Lights Out")
+
 When play begins: say [I had so many spelling and grammar errors in this section of the game. Shout out to Elana and my mom for catching most (if not all) of my mistakes. This part has a lot of writing, too, but the goal is to build a story line and learn more about Ms. Light.]  "Prologue: 
 
 At night, while walking down the lonely sidewalk to your house, you notice farther down the street is your neighbor, Ms. Light, sitting alone on a sidewalk bench. You always felt sorry for the old woman (she looked about a hundred years old), because she's both blind and a widow. You don't know much else about her. Everyone in town knows she's crazy, though. She hardly leaves her house after all, which made her being there even more strange. Ms. Light doesn't have any friends, and she is always singing a disturbing song quietly to herself.
 
 You walk as quitely as possible to not disturb her (she is singing again). When, all of a sudden, Ms. Light stops singing and turns her head slowly in your direction, acknowledging you. She can hear you from over 30 meters away! Maybe she can smell you? Or maybe she can sense your presence, and knows that you had tried to avoid her? Whatever it is, you had to admit that Ms. Light's ESP is more than a little creepy. 
 
-Before you could even say anything, Ms. Light rises from her bench, and strides towards you at a startling pace. Once she in in considerable distance from you (much too close for your own comfort), she utters in a low, scratchy voice, 'Ah, I've been waiting for you. I'm going out of town tomorrow night, and I need you to watch my house for me... 
+Before you could even say anything, Ms. Light rises from her bench, and strides towards you at a startling pace. Once she in in considerable distance from you (much too close for your own comfort), she utters in a low, scratchy voice, 'Ah, I've been waiting for you. I'm going out of town tomorrow night, and I need you to watch my house for me...' 
 
 
 
@@ -42,6 +44,7 @@ a thing has a text called sit in.
 
 a thing has a text called break.
 
+
 [I found it ineteresting that you can't touch or feel rooms, only the objects found in them. This caused me a lot of problems when coding for the rooms, and I was confused for a while about why I wasn't able to code "Intead of touching room: say [whatever"], or "Instead of feeling room: say [whatever]". I thought that the player might be confused by this too, so I mentioned it in the note found in the description of Entrance-Room.]
 
 a room has a text called smell. 
@@ -59,9 +62,6 @@ Understand "pull [something]" and "push [something]" as turning.
 Understand "feel [something]" as touching. 
 
 Understand "push [something]" and "flip [something]" as pulling. 
-
-
-
 
 Ms Light is a person. she is in ms light's driveway. she is undescribed. Description is "Ms. Light is nowhere to be seen. She's probably left town by now." [Had to include this because my Mom tried to look at Ms. Light.]
 
@@ -90,7 +90,7 @@ You know that in every house in your neighborhood there is usually a basement co
 
 
 
-*[bold type]NOTE:[roman type] It is very important to understand that the house is completely dark. You will not be able to obtain all clues and have a full game experience unless you use ALL/MOST OF YOUR SENSES to interact with each thing/room. Also: While it is possible to 'smell' or 'listen to' a room without specifying object, you cannot 'feel' a room. You must 'feel' or 'touch' specified objects within a room. It may not be obvious what things in the house are supposed to be when you inspect them. You must make assumptions on what they could be based on the clues given to you. Smells and sounds of objects can also be different from the room they are located in. Use the clues gathered from what is described to you to help figure out where you are in the house, and what kind of objects you're interacting with. However, this does not mean that 'examining' is unimportant.
+*[bold type]NOTE:[roman type] It is very important to understand that the house is completely dark. You will not be able to obtain all clues and have a full game experience unless you use ALL / MOST OF YOUR SENSES to interact with each thing/room. Also: While it is possible to 'smell' or 'listen to' a room without specifying object, you cannot 'feel' a room. You must 'feel' or 'touch' specified objects within a room. It may not be obvious what things in the house are supposed to be when you inspect them. You must make assumptions on what they could be, based on the clues given to you. Smells and sounds of objects can also be different from the room they are located in. 
 
 You are in the Entrance-Room. Start Investigating here. You know that [end if] North is North-Room and East is East-Room. South is Ms. Light's Driveway." [Elana suggested that I have initial descriptions of rooms and objects, so that the player notices/doesn’t notice certain things only after inspecting more than once. So, I changed almost all room descriptions to have initial descriptions by programming with [if unvisited] and [end if] for those conditions. I referred to Jim Aikin’s handbook. I also added initial descriptions for sounds and smells.]
 
@@ -128,7 +128,7 @@ Noise is a thing. Noise is fixed in place. It is in north-room. it is undescribe
 
 Floor is scenery. It is in north-room. It is undescribed. Description is "The hard floor is covered in a puddle." Instead of smelling floor: say "You don't smell anything." 
 
-Long-Container is a thing. It is undescribed. Long-container is fixed in place. It is in North-room. Description is "A long, deep container. It's hard to know much about it just through examination." Instead of touching long-container: say "You feel every inch of the long-container, and determine that it is deep enough to sit in. It's a bit damp on the inside, and you can assume that it was made to be filled with something. You can feel a knob on one end of the long-container." Instead of sitting in long-container: say "You sit in the long-container. Your butt's a bit damp now. You exit the long container."
+Long-Container is a thing. It is undescribed. Long-container is fixed in place. It is in North-room. Description is "A long, deep container. It's hard to know much about it just through examination." Instead of touching long-container: say "You feel every inch of the long-container, and determine that it is deep enough to sit in. It's a bit damp on the inside, and you can assume that it was made to be filled with something. You can feel a knob on one end of the long-container." 
 
 Puddle is scenery. It is undescribed. It is in North-room. Description is "A puddle sits in in the middle of the floor. It's slippery." Instead of tasting puddle: say "It is tasteless, though you find it oddly refreshing." Instead of touching puddle: say "Your fingers are a bit wet from touching the puddle." Instead of smelling puddle: say "It is scentless."
 
@@ -144,15 +144,17 @@ East-room is a room. East-room is east of entrance-room. Description is "You tra
 
 West is Entrance-Room." Instead of smelling east-room: say "You notice an odd metallic smell coming from somewhere in the room." Instead of listening to east-room for the first time: say "At first, the room is completely silent. Then, out of nowhere you hear a harsh, high-pitched musical note coming from the middle of the room. Startled and wondering who or what could have made that sound, you conclude that there is definitely a piano in the room." Instead of listening to east-room: say "The room is silent again. Who had played the piano?"
 
-Piano is a thing in east-room. Piano is fixed in place. It is undescribed. The description of piano is "After feeling around the room, you find a large piano resting solemnly in the center. From what you can tell, there is nothing else in the room. [bold type]Play[roman type] something! (specific notes)". Instead of touching piano: say "With a quick brush of your fingertips, you can feel a sticky liquid on the keys."
+Piano is a thing in east-room. Piano is fixed in place. It is undescribed. The description of piano is "After feeling around the room, you find a large piano resting solemnly in the center. From what you can tell, there is nothing else in the room. [bold type]Play[roman type] something! (specific notes)". Instead of touching piano: say "With a quick brush of your fingertips, you can feel a sticky liquid on the keys." 
+
+Generator is a thing. Generator is in east-room. Generator is fixed in place. It is undescribed. Description is "You can't tell where the generator is. You know it must be in this room, though. It may be hidden or disguised as something." 
 
 Instead of smelling piano: say "The metallic scent seems to be coming from the piano."
 
-Liquid is a thing. Liquid is on piano. It is undescribed. Description is "The unknown liquid is a bit warm." Instead of taking liquid: say "You don't even know what it is! You have no means of transporting it, anyway." Instead of tasting liquid: say "Even though it's completely unsanitary and disgusting, you dip your finger in the liquid and have a quick taste. It tastes like iron."
+Liquid is a thing. Liquid is on piano. It is undescribed. Description is "The unknown liquid is a bit warm." Instead of taking liquid: say "You don't even know what it is! You have no means of transporting it, anyway." Instead of tasting liquid: say "Even though it's completely unsanitary and disgusting, you dip your finger in the liquid and have a quick taste. It tastes like iron." Instead of smelling liquid: say "The metallic scent seems to be coming from the liquid." Instead of touching liquid: say "It's warm and sticky." 
 
 [Super thankful to Mrs. Kiang, who wrote this code (below, until end of Table of Songs) for me. For several days, I had struggled with not knowing how the player should be able to enter in the music onto the piano. I had tried coding for entering each individual note to the piano, but with that I continued to be stumped by the many different possible combinations of notes that a player could enter, complications with turning notes on/off, and triggering the end of the game with the notes. This code ended up being the best possible solution, being simple and logical to the player as well.]
 
-Understand "play [text]" as playing. Playing is an action applying to one topic.
+Understand "play [text]" as playing. Playing is an action applying to one topic. 
 	
 Carry out playing:
 	say "You play a nice tune. Nothing else happens, though."
